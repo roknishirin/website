@@ -10,7 +10,9 @@
     background-size: cover;
     position: relative;
     background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    /* background-image: url(images/sk3.jpg); */
+    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(images/sk3.jpg)
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
 
 
 }
@@ -41,7 +43,7 @@ nav img {
 
 /* color */
 .nav-links ul li a{
-    color: #8174a8;
+    color: #ffffff9b;
     text-decoration: none;
     font-size: 20px;
 }
@@ -50,7 +52,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: #8174a8;
+    background: #ffffff9b;
     display: block;
     margin: auto;
     transition: 0.3s;
@@ -60,9 +62,10 @@ nav img {
     width: 100%;
 }
 
+
 .text-box {
     width: 90%;
-    color: #270941;
+    color: rgba(248, 248, 248, 0.629);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -76,7 +79,25 @@ nav img {
 
 .text-box p {
     margin: 10px 0 40px;
-    font-size: 14px;
-    color: #270941;
+    font-size: 17px;
+    color: #ffffff9b;
+}
+
+ .hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff9b;
+    border: 1px solid #ffffff9b;
+    padding: 12px 34px;
+    font-size: 19px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    transition: 0.5s;
+} 
+
+.hero-btn:hover {
+    background-color: #b9d8f7;
+    transition: 0.5s;
 }
 
